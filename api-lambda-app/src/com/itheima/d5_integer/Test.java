@@ -25,7 +25,7 @@ public class Test {
         System.out.println("------------------");
         // 1. 包装类可以把基本类型的数据转为字符串
         Integer i3 = 23;
-        i3
+        System.out.println(i3.toString() + 1);
 
     }
 
